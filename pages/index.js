@@ -2,6 +2,7 @@ import TestComponent from "@/components/test-component";
 import { useRouter } from "next/router";
 export default function Home() {
   const router = useRouter();
+
   return (
     <main className="flex flex-col items-center justify-center min-h-screen p-24 bg-blue-300">
       <div className="p-4 my-auto space-y-6 text-center text-white bg-red-400">
